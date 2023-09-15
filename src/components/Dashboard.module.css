@@ -1,0 +1,68 @@
+/* App.css */
+
+/* Background image or gradient (replace 'your-background-image.jpg' with your image URL) */
+.dashboard-container {
+    /* background: url('your-background-image.jpg') no-repeat center center fixed; */
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  /* Style for the top navigation bar */
+  .navbar-top {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    padding: 10px;
+  }
+  
+  /* Style for the navbar brand text */
+  .navbar-top .navbar-brand {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Style for the dashboard content container */
+  .dashboard-content {
+    color: white;
+    padding: 30px;
+  }
+  
+  /* Style for the dashboard heading */
+  .dashboard-heading {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  /* Style for the cards */
+  .card {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    border: none;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0056b3;
+  }
+  
+  .card-text {
+    font-size: 16px;
+  }
+  
+  /* Style for the buttons */
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  

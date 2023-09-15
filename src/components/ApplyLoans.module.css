@@ -1,0 +1,61 @@
+/* ApplyLoans.css */
+
+/* ApplyLoans component container */
+.container {
+  background-color: #f0f0f0; /* Light gray background */
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* ApplyLoans heading */
+h2, h3 {
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+/* ApplyLoans form */
+.apply-loan-form {
+  max-width: 400px;
+}
+
+/* ApplyLoans form inputs */
+.form-control {
+  margin-bottom: 15px;
+}
+
+/* ApplyLoans submit button */
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Popup message */
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  z-index: 999;
+}
+
+.popup-content {
+  text-align: center;
+}
+
+.popup button {
+  margin-top: 10px;
+}
